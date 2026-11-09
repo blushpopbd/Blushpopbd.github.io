@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ব্লাশ পপ | BlushPop - মেয়েদের কসমেটিক্স ও ব্যাগ</title>
+<meta name="description" content="ব্লাশ পপ - মেয়েদের জন্য কসমেটিক্স ও স্টাইলিশ ব্যাগের অনলাইন শপ।">
+<style>
+:root{--purple:#6f4bb3;--coral:#ef4a6e;--teal:#4fc9bd;--yellow:#f5b441;--sky:#9cc7d3;--bg:#fffdfd;--text:#2f2540}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Segoe UI',Tahoma,Arial,sans-serif;color:var(--text);background:var(--bg);line-height:1.6}
+header{background:#fff;position:sticky;top:0;z-index:10;box-shadow:0 2px 12px rgba(111,75,179,.15);display:flex;justify-content:space-between;align-items:center;padding:10px 6%}
+.logo img{height:46px;display:block}
+.logo-text{font-size:28px;font-weight:900;letter-spacing:1px}
+.logo-text span:nth-child(1){color:var(--coral)}.logo-text span:nth-child(2){color:var(--purple)}.logo-text span:nth-child(3){color:var(--teal)}.logo-text span:nth-child(4){color:var(--yellow)}
+nav a{margin-left:20px;text-decoration:none;color:var(--text);font-weight:700}
+nav a:hover{color:var(--coral)}
+.hero{text-align:center;padding:80px 6%;background:linear-gradient(135deg,#f3ecff 0%,#e3f8f5 50%,#fff3dc 100%)}
+.hero img{max-width:420px;width:80%;margin-bottom:20px}
+.hero h1{font-size:40px;color:var(--purple);margin-bottom:12px}
+.hero p{font-size:20px;margin-bottom:28px}
+.btn{display:inline-block;background:var(--coral);color:#fff;padding:14px 32px;border-radius:30px;text-decoration:none;font-weight:700;transition:.3s}
+.btn:hover{background:var(--purple);transform:translateY(-2px)}
+section{padding:60px 6%}
+h2{text-align:center;font-size:32px;color:var(--purple);margin-bottom:36px}
+h2::after{content:'';display:block;width:70px;height:5px;border-radius:5px;margin:10px auto 0;background:linear-gradient(90deg,var(--coral),var(--yellow),var(--teal))}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:24px}
+.card{background:#fff;border-radius:20px;overflow:hidden;box-shadow:0 4px 18px rgba(111,75,179,.14);transition:.3s;border-top:5px solid var(--teal)}
+.card:nth-child(2n){border-top-color:var(--yellow)}
+.card:nth-child(3n){border-top-color:var(--coral)}
+.card:nth-child(4n){border-top-color:var(--purple)}
+.card:hover{transform:translateY(-6px)}
+.card img{width:100%;height:230px;object-fit:cover;background:#f3ecff}
+.card .info{padding:16px;text-align:center}
+.card h3{font-size:18px;margin-bottom:6px}
+.price{color:var(--coral);font-weight:800;font-size:18px;margin-bottom:12px}
+.card .btn{padding:10px 22px;font-size:15px}
+.alt{background:#f6f1ff}
+.why{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:20px;text-align:center}
+.why div{background:#fff;padding:24px;border-radius:18px;box-shadow:0 3px 12px rgba(111,75,179,.1);font-weight:600}
+.why div b{display:block;font-size:30px;margin-bottom:8px}
+.contact{text-align:center}
+.contact p{margin-bottom:20px;font-size:18px}
+.contact .btn{margin:6px}
+.wa{background:#25d366}
+.wa:hover{background:#1da851}
+footer{background:var(--purple);color:#fff;text-align:center;padding:22px}
+@media(max-width:600px){.hero h1{font-size:28px}nav a{margin-left:10px;font-size:14px}}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="logo">
+    <!-- লোগো ছবি আপলোড করে নিচের লাইনটা চালু করুন এবং logo-text লাইনটা মুছে দিন: -->
+    <!-- <img src="logo.png" alt="BlushPop"> -->
+    <div class="logo-text"><span>BLUS</span><span>H</span><span>P</span><span>OP</span></div>
+  </div>
+  <nav>
+    <a href="#cosmetics">কসমেটিক্স</a>
+    <a href="#bags">ব্যাগ</a>
+    <a href="#contact">যোগাযোগ</a>
+  </nav>
+</header>
+
+<div class="hero">
+  <!-- <img src="logo.png" alt="BlushPop"> -->
+  <h1>আপনার সৌন্দর্য, আপনার স্টাইল</h1>
+  <p>মেয়েদের জন্য সেরা কসমেটিক্স আর ট্রেন্ডি ব্যাগ এক জায়গায়</p>
+  <a class="btn" href="#cosmetics">কেনাকাটা শুরু করুন</a>
+</div>
+
+<section id="cosmetics">
+  <h2>আমাদের কসমেটিক্স</h2>
+  <div class="grid">
+    <div class="card">
+      <img src="https://via.placeholder.com/400x300/f3ecff/6f4bb3?text=Lipstick" alt="লিপস্টিক">
+      <div class="info"><h3>ম্যাট লিপস্টিক</h3><div class="price">৳ 450</div>
+      <a class="btn" href="https://m.me/YOUR_FACEBOOK_PAGE_USERNAME">অর্ডার করুন</a></div>
+    </div>
+    <div class="card">
+      <img src="https://via.placeholder.com/400x300/e3f8f5/4fc9bd?text=Foundation" alt="ফাউন্ডেশন">
+      <div class="info"><h3>ফাউন্ডেশন</h3><div class="price">৳ 850</div>
+      <a class="btn" href="https://m.me/YOUR_FACEBOOK_PAGE_USERNAME">অর্ডার করুন</a></div>
+    </div>
+    <div class="card">
+      <img src="https://via.placeholder.com/400x300/fff3dc/f5b441?text=Eyeliner" alt="আইলাইনার">
+      <div class="info"><h3>ওয়াটারপ্রুফ আইলাইনার</h3><div class="price">৳ 300</div>
+      <a class="btn" href="https://m.me/YOUR_FACEBOOK_PAGE_USERNAME">অর্ডার করুন</a></div>
+    </div>
+    <div class="card">
+      <img src="https://via.placeholder.com/400x300/ffe3ea/ef4a6e?text=Blush" alt="ব্লাশ">
+      <div class="info"><h3>পিঙ্ক ব্লাশ</h3><div class="price">৳ 550</div>
+      <a class="btn" href="https://m.me/YOUR_FACEBOOK_PAGE_USERNAME">অর্ডার করুন</a></div>
+    </div>
+  </div>
+</section>
+
+<section id="bags" class="alt">
+  <h2>আমাদের ব্যাগ</h2>
+  <div class="grid">
+    <div class="card">
+      <img src="https://via.placeholder.com/400x300/f3ecff/6f4bb3?text=Hand+Bag" alt="হ্যান্ডব্যাগ">
+      <div class="info"><h3>স্টাইলিশ হ্যান্ডব্যাগ</h3><div class="price">৳ 1,450</div>
+      <a class="btn" href="https://m.me/YOUR_FACEBOOK_PAGE_USERNAME">অর্ডার করুন</a></div>
+    </div>
+    <div class="card">
+      <img src="https://via.placeholder.com/400x300/e3f8f5/4fc9bd?text=Shoulder+Bag" alt="শোল্ডার ব্যাগ">
+      <div class="info"><h3>শোল্ডার ব্যাগ</h3><div class="price">৳ 1,250</div>
+      <a class="btn" href="https://m.me/YOUR_FACEBOOK_PAGE_USERNAME">অর্ডার করুন</a></div>
+    </div>
+    <div class="card">
+      <img src="https://via.placeholder.com/400x300/fff3dc/f5b441?text=Mini+Bag" alt="মিনি ব্যাগ">
+      <div class="info"><h3>মিনি ক্রসবডি ব্যাগ</h3><div class="price">৳ 950</div>
+      <a class="btn" href="https://m.me/YOUR_FACEBOOK_PAGE_USERNAME">অর্ডার করুন</a></div>
+    </div>
+    <div class="card">
+      <img src="https://via.placeholder.com/400x300/ffe3ea/ef4a6e?text=Backpack" alt="ব্যাকপ্যাক">
+      <div class="info"><h3>ফ্যাশন ব্যাকপ্যাক</h3><div class="price">৳ 1,650</div>
+      <a class="btn" href="https://m.me/YOUR_FACEBOOK_PAGE_USERNAME">অর্ডার করুন</a></div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>কেন ব্লাশ পপ?</h2>
+  <div class="why">
+    <div><b>✨</b>১০০% অরিজিনাল পণ্য</div>
+    <div><b>🚚</b>সারা বাংলাদেশে ডেলিভারি</div>
+    <div><b>💵</b>ক্যাশ অন ডেলিভারি</div>
+    <div><b>💬</b>সহজ অর্ডার, দ্রুত সাপোর্ট</div>
+  </div>
+</section>
+
+<section id="contact" class="alt contact">
+  <h2>অর্ডার ও যোগাযোগ</h2>
+  <p>যেকোনো পণ্যের অর্ডার বা প্রশ্নের জন্য আমাদের সাথে যোগাযোগ করুন</p>
+  <a class="btn" href="https://facebook.com/YOUR_FACEBOOK_PAGE_USERNAME" target="_blank">ফেসবুক পেজে যান</a>
+  <a class="btn wa" href="https://wa.me/8801XXXXXXXXX" target="_blank">হোয়াটসঅ্যাপে মেসেজ</a>
+</section>
+
+<footer>© 2026 ব্লাশ পপ | সর্বস্বত্ব সংরক্ষিত</footer>
+
+</body>
+</html>
